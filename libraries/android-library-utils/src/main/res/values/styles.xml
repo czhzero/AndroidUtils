@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="util_top_dialog">
+        <item name="android:windowBackground">@color/util_bg_tran</item>
+    </style>
+
+    <style name="util_dialog_view_anim">
+        <item name="@android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="@android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+</resources>

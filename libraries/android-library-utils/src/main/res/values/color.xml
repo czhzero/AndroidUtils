@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="util_bg_tran">#80000000</color>
+    <color name="util_white">#ffffff</color>
+    <color name="util_red">#ef4242</color>
+</resources>
