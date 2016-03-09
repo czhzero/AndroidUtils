@@ -1,0 +1,37 @@
+apply plugin: 'com.github.dcendents.android-maven'
+
+group = 'com.gezbox.library'                               // Maven Group ID for the artifact
+
+install {
+    repositories.mavenInstaller {
+        // This generates POM.xml with proper parameters
+        pom {
+            project {
+                packaging 'aar'
+                groupId 'com.gezbox.library'
+                artifactId 'android-library-utils'
+
+                // Add your description here
+                name 'android-library-utils'
+                description 'Gezbox Android Library'
+                url 'https://github.com/czhzero/AndroidUtils'
+
+                // Set your license
+                licenses {
+                    license {
+                        name 'The Apache Software License, Version 2.0'
+                        url 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                    }
+                }
+                developers {
+                    developer {
+                        id 'gezbox'
+                        name 'czhzero'
+                        email 'czhpxl007@163.com'
+                    }
+                }
+
+            }
+        }
+    }
+}
